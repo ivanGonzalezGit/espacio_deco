@@ -1,0 +1,48 @@
+
+color body: rgb(158, 143, 124);
+
+al achicar la pantalla 	- no funciona el nav
+			- el logo y el título se superponen
+
+
+funcion js para rellenar con fotos la pagina de carrousel
+
+ <div id="centrar3" class="">
+    <div class="row">
+      <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+      <div class="col-6 col-sm-3"><img src="./img/img3.jpeg" alt="imagen_2"></div>
+      <div class="col-6 col-sm-3"><img src="./img/img4.jpeg" alt="imagen_3"></div>
+      <div class="col-6 col-sm-3"><img src="./img/img5.jpeg" alt="imagen_4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-sm-3"><img src="./img/img6.jpeg" alt="imagen_5"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img7.jpeg" alt="imagen_6"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img8.jpeg" alt="imagen_7"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img9.jpeg" alt="imagen_8"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+        <div class="col-6 col-sm-3"><img src="./img/img2.jpeg" alt="imagen_9"></div>
+    </div>
+
+  </div>
+
+  .contenedor{
+    margin: 50px;
+    padding: 5px;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    
+}
