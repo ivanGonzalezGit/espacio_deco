@@ -19,46 +19,92 @@ body{
     background: rgb(158, 143, 124);
 }
 
+.headerGrande div{
+    display: none;
+}
+.headerGrande canvas {
+    display: none;
+}
+
 header {
+    width: 100%;
+    height: auto;
     margin: 75px 0px 5px;
     background: rgb(232, 228, 227);
     display: flex;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 }
 
-header img{
-    width: 200px;
-    height: 150px;
-    box-shadow: none;
-}
 #header1{
-    display: block;
-    width: 30%;
+    width: auto;
     height: auto;
 }
 
 #header2{
-    margin-top: 50px;
-    display: block;
-    width: 70%;
+    width: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     height: auto;
     font-family: 'Courier Prime', monospace;
     font-size: 48px;
 }
 
-nav a{
-    color: #ffffd5;
+#fantasma1, #fantasma2{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    width: auto;
+    height: auto;
+    color: #034132;
+    font-size: 14px;
+    font-weight: bold;
 }
+
+#fantasma1 a, #fantasma2 a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #034132;
+    text-decoration: none;
+}
+
+#header1 img{
+    width: 200px;
+    height: 150px;
+    box-shadow: none;
+}
+
 #roger{
     width: 100%;
     height: 8px;
-    top: 42px;
+    top: 10px;
     z-index: 1;
     position: sticky;
     background: #ffffd5;
 }
+
+#navbar a{
+    color: #ffffd5;
+}
+
+#bordeBotonNavbar{
+    border-color: #ffffd5;
+    color: #ffffd5;
+}
+
+#botonNavbar{
+
+}
+
 #navbar{
-    top: 50px;
+    top: 12px;
     position: sticky;
     z-index: 1;   
     background-color: rgb(3, 65, 50);
@@ -93,7 +139,6 @@ img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     justify-content: center;
     align-items: center;
     background: rgb(158, 143, 124)
@@ -132,7 +177,6 @@ img{
     text-align: center;
     width: 200px;
     height: 50px;
-    /*color: bisque;*/
 }
 
 .contenido_articulo{
@@ -140,7 +184,6 @@ img{
     text-align: justify;
     width: 200px;
     height: 250px;
-  /*  color: bisque;*/
 }
 
 #centrar{
@@ -169,7 +212,6 @@ img{
     height: 500px;
     margin: 0;
     padding: 0;
-
 }
 
 .carousel-item img{ 

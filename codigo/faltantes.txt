@@ -1,8 +1,12 @@
 
 color body: rgb(158, 143, 124);
 
+
 al achicar la pantalla 	- no funciona el nav
-			- el logo y el título se superponen
+			- el logo y el título se superponen (solucionado)
+importante: el logo y el titulo se superponían por que yo usé propiedades flex para
+darle movilidad responsive pero para disponerlo en la pantalla grande puse características fijas
+de ancho de elementos, ej: 30%+40%+30%. estos valores fijos no dejan que las características flex funcionen
 
 
 funcion js para rellenar con fotos la pagina de carrousel
