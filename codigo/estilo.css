@@ -19,13 +19,6 @@ body{
     background: rgb(158, 143, 124);
 }
 
-.headerGrande div{
-    display: none;
-}
-.headerGrande canvas {
-    display: none;
-}
-
 header {
     width: 100%;
     height: auto;
@@ -81,7 +74,7 @@ header {
     box-shadow: none;
 }
 
-#roger{
+#decoracionNavbar{
     width: 100%;
     height: 8px;
     top: 10px;
@@ -95,12 +88,8 @@ header {
 }
 
 #bordeBotonNavbar{
-    border-color: #ffffd5;
+    border: solid 3px #ffffd5;
     color: #ffffd5;
-}
-
-#botonNavbar{
-
 }
 
 #navbar{
@@ -122,8 +111,9 @@ header {
 }
 
 nav img{
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
+    margin: 7px;
     border-radius: 50%;
 }
 
@@ -132,6 +122,14 @@ img{
     height: 200px;
     margin: 5px;
     box-shadow: 2px 2px 5px black;
+}
+
+.datos{
+margin: 30px 30px;
+}
+
+div p, div a{
+    margin: 5px;
 }
 
 .centrar2{
@@ -221,9 +219,32 @@ img{
 footer{
     margin-top: 30px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
     background: rgb(3, 65, 50);
 }
 
 footer img{
     box-shadow: none;
+}
+
+footer p, footer a{
+    margin:0;
+    text-decoration: none;
+    color: #ffffd5;
+}
+
+#citoconceptos{
+    margin: 172px 20px 20px 20px;
+    color: #ffffd5;
+}
+
+@media (max-width: 991px) {
+    #citoconceptos{
+        margin: 40px 20px 20px 20px;
+        color: #ffffd5;
+    }
 }
