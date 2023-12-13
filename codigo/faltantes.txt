@@ -1,7 +1,7 @@
 
 color body: rgb(158, 143, 124);
 
-
+arreglar carousel, distinta medida de fotos y no muestra las dos últimas (solucionado)
 al achicar la pantalla 	- no funciona el nav (solucionado)
 			- el logo y el título se superponen (solucionado)
 importante: el logo y el titulo se superponían por que yo usé propiedades flex para
@@ -11,7 +11,10 @@ de ancho de elementos, ej: 30%+40%+30%. estos valores fijos no dejan que las car
 cambiar el color del boton hamburguesa. (solucionado)
   se cambia el icono ->se elimina la clase del toggle y se pone dentro de la etiqueta span el icono de fontawesome que elija.
 
+hacer el tope de achicamiento
+
 funcion js para rellenar con fotos la pagina de carrousel
+  php
 
  <div id="centrar3" class="">
     <div class="row">
